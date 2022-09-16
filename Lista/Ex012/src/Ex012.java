@@ -7,10 +7,10 @@ public class Ex012 {
         double altura;
         double pesoIdeal;
         Scanner tc = new Scanner(System.in);
-        System.out.println("Digite sua altura");
+        System.out.println("Digite sua altura: ");
         altura = tc.nextDouble();
         tc.close();
         pesoIdeal = (72.7 * altura) - 58;
-        System.out.println("Seu peso ideal é de:" + pesoIdeal);
+        System.out.println("Seu peso ideal é de: " + pesoIdeal);
     }
 }

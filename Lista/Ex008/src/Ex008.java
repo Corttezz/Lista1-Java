@@ -1,5 +1,5 @@
 //Faça um Programa que pergunte quanto você ganha por hora e o número de horas 
-//trabalhadas no mês.Calcule e mostre o total do seu salário no referido mês.
+//trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 import java.util.Scanner;
 
 public class Ex008 {
@@ -15,7 +15,7 @@ public class Ex008 {
         hoursOfWorkMonth = tc.nextInt();
         tc.close();
         salario = gainPerHour * hoursOfWorkMonth;
-        System.out.println("Seu salário é de: " + salario);
+        System.out.println("Seu salário é de: " + salario+"R$");
 
     }
 }

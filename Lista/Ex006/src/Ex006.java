@@ -5,7 +5,7 @@ public class Ex006 {
     public static void main(String[] args) throws Exception {
         double raio;
         double area;
-        double pi = 3.14;
+        double pi = Math.PI;
 
         System.out.println("Digite o raio do círculo: ");
 
@@ -13,7 +13,7 @@ public class Ex006 {
         raio = tc.nextDouble();
         tc.close();
         
-        area = pi * (raio * raio);
+        area = pi * Math.pow(raio, 2);
 
         System.out.println("A área do círculo é de: " + area);
     

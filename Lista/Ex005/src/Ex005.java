@@ -4,7 +4,7 @@ public class Ex005 {
     public static void main(String[] args) throws Exception {
         double metros;
         double centimetros;
-
+        System.out.println("Dite o valor em metros: ");
         Scanner tc = new Scanner(System.in);
         metros = tc.nextDouble();
         tc.close();

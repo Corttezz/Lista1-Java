@@ -14,7 +14,7 @@ public class Ex013 {
         tc.close();
         pesoIdealH = (72.7 * altura) - 58;
         pesoIdealM = (62.1*altura) - 44.7;
-        System.out.println("Caso homem, seu peso ideal é de:" + pesoIdealH);
-        System.out.println("Caso mulher, seu peso ideal é de" + pesoIdealM);
+        System.out.println("Caso homem, seu peso ideal é de: " + pesoIdealH);
+        System.out.println("Caso mulher, seu peso ideal é de: " + pesoIdealM);
     }
 }
